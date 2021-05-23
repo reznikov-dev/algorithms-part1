@@ -121,10 +121,8 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         return queue[StdRandom.uniform(qSize)];
     }
 
-    // return an independent iterator over items in random order
-
     /**
-     * Returns iterator in sample order
+     * Returns iterator in random order
      * @return Iterator<Item>
      */
     public Iterator<Item> iterator() {
